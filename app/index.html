@@ -3,7 +3,7 @@
 <html lang="en" ng-app="assistantWeb">
 <head>
     <meta charset="utf-8">
-    <title>BDD Assistant</title>
+    <title ng-bind="'BDD Assistant: ' + title"></title>
     <link rel="stylesheet" href="css/app.css"/>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
@@ -13,13 +13,8 @@
     <ul class="menu">
         <li><a href="#/index">Intro</a></li>
         <li><a href="#/what_is_BDD">What is BDD</a></li>
-        <li><a href="#/screenshots">Screenshots</a></li>
     </ul>
 </nav>
-<aside>
-    <h4>Find us in <a href="http://technologyconversations.com">TechConversations</a></h4>
-    <h4>Share it.. (Facebook, twitter, ...)</h4>
-</aside>
 <div ng-view></div>
 
 <!-- In production use:
