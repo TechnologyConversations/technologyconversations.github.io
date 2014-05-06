@@ -8,23 +8,24 @@ angular.module('assistantWeb', [
   'assistantWeb.controllers'
 ])
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when(
+    $routeProvider.when(
       '/index', {
           title: '',
           templateUrl: 'partials/intro.html',
           controller: 'IntroCtrl'
       }
-  );
-  $routeProvider.when(
-      '/bddAssistant', {
-          title: 'Application',
-          templateUrl: 'partials/bddAssistant.html',
-          controller: 'bddAssistantCtrl'
-      }
-  );
-  $routeProvider.otherwise(
+    );
+    $routeProvider.when(
+        '/page/:name', {
+            templateUrl: function(params){
+                return 'partials/' + params.name + '.html';
+            },
+            controller: 'pageCtrl'
+        }
+    );
+    $routeProvider.otherwise(
       { redirectTo: '/index' }
-  );
+    );
 }])
 .run(['$location', '$rootScope', function($location, $rootScope) {
     $rootScope.$on('$routeChangeSuccess', function(event, current, previous) {
