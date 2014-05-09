@@ -4,28 +4,41 @@
 <head>
     <meta charset="utf-8">
     <title>BDD Assistant</title>
-    <link rel="stylesheet" href="css/app.css"/>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <script src="../bower_components/angular/angular.js"></script>
+    <script src="../bower_components/angular-route/angular-route.js"></script>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+    <!--<script src="js/services.js"></script>-->
+    <!--<script src="js/filters.js"></script>-->
+    <!--<script src="js/directives.js"></script>-->
+
 </head>
 <body>
-<nav>
-    <ul class="menu">
-        <li><a href="#/index">Intro</a></li>
-        <li><a href="#/what_is_BDD">What is BDD</a></li>
-    </ul>
-</nav>
+<header>
+    <nav id="navigation" class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="home" class="navbar-brand" href="#/index">TC BDD Assistant</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a id="bdd" href="#/page/bdd">BDD</a></li>
+                <li><a id="bddAssistant" href="#/page/bddAsssistant">BDD Assistant</a></li>
+                <li><a id="tutorial" href="#/page/tutorial">Tutorial</a></li>
+                <li><a id="technologyConversations" href="http://TechnologyConversations.com">Technology Conversations</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
 <div ng-view></div>
-
-<!-- In production use:
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
--->
-<script src="../bower_components/angular/angular.js"></script>
-<script src="../bower_components/angular-route/angular-route.js"></script>
-<script src="js/app.js"></script>
-<script src="js/controllers.js"></script>
-<!-- <script src="js/services.js"></script>
-<script src="js/filters.js"></script>
-<script src="js/directives.js"></script> -->
 </body>
 </html>
