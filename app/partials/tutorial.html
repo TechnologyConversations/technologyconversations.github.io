@@ -1,8 +1,5 @@
 <div class="row">
-    <div id="tutorialIndex" class="col-md-3">
-        <ul class="nav nav-pills nav-stacked">
-            <li><a id="tutorialIntroduction" href="#/page/tutorial">Introduction</a></li>
-        </ul>
+    <div id="tutorialIndex" class="col-md-3" ng-include="'/app/partials/tutorialIndex.html'">
     </div>
     <div class="col-md-9">
         <div class="pageHeader">
@@ -12,7 +9,10 @@
         <div>
             Welcome to the BDD Assistant Tutorial.
             Following sections will explain the main concepts in more details:
-            TODO
+            <div id="tutorialNavigation">
+                <h3><a href="#/page/tutorialNavigation">Navigation</a></h3>
+                The main purpose of the navigation menu is to provide quick links to major sections of the application as well as the information of the current location.
+            </div>
         </div>
     </div>
 </div>
