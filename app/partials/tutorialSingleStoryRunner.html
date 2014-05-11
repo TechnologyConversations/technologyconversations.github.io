@@ -1,0 +1,58 @@
+<div class="row">
+    <div class="col-md-3" ng-include="'/app/partials/tutorialIndex.html'">
+    </div>
+    <article class="col-md-9">
+        <header class="pageHeader">
+            <h1 id="pageHeader">BDD Assistant Tutorial</h1>
+            <h2 id="pageSubheader">Single Story runner</h2>
+        </header>
+        <div>
+            <img class="pull-right" src="/app/img/singleStoryRunnerParams.png">
+            <div>
+                Single Story Runner is commonly used during the specification and development of some story.
+                After scenarios are written, developers should use the BDD in the TDD fashion:
+                <ul>
+                    <li>Run scenarios and confirm that at least one of the failed or has pending steps</li>
+                    <li>Implement the first one that failed or has pending steps</li>
+                    <li>Run scenarios and confirm that the previous failed or with pending steps is working</li>
+                    <li>Refactor</li>
+                    <li>Repeat</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Run Story</h3>
+                <p>
+                    Once inside an story, it can be run by clicking the "Run Story" button.
+                </p>
+            </div>
+            <div>
+                <h3>Run Story parameters dialog</h3>
+                <p>
+                    "Run Story" action brings the story runner dialog that can be used to set required parameters.
+                    For example, browser type and size can be specified in the story runner dialog.
+                    To proceed and run the specified story using parameters set in this dialog, click the "Run Story" button.
+                </p>
+            </div>
+            <div>
+                <h3>Run Story outcome</h3>
+                <div>
+                    <h4>Run Story execution status</h4>
+                    <p>
+                        Once the story run starts, progress bar will appear in the top right corner of the screen.
+                        After the story run is finished, progress bar changes its status to successful or failed depending on the outcome.
+                    </p>
+                    <h4>Pending steps</h4>
+                    <p>
+                        If story that was run contains pending steps, they will be listed inside the story run outcome section.
+                        To create the implementation of an pending step, please click on the corresponding link.
+                    </p>
+                    <h4>Reports</h4>
+                    <p>
+                        Detailed report of the execution of all scenarios is provided as well.
+                        If there are pending or failed steps, they are marked appropriately.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </article>
+</div>
