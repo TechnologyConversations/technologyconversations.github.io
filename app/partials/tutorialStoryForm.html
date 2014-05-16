@@ -10,112 +10,110 @@
             <h2 id="pageSubheader">Story Form</h2>
         </header>
         <div>
-            <div>
-                Story Form is a representation of an BDD story. It is divided into 3 parts: Name, Story and Scenarios.
-            </div>
-            <div>
-                <h3>Name</h3>
-                <p>Name, together with the directory path, forms the unique identification of the BDD story.</p>
-            </div>
-            <div>
-                <figure class="pull-right">
-                    <img src="/app/img/tutorialStoryFormStory.png">
-                </figure>
-                <h3>Story</h3>
-                <div>
-                    Story section is divided into 5 sections. None of the sections is mandatory.
-                </div>
-                <div>
-                    <h4>Description</h4>
-                    <p>
-                        This free-text field is for informational purposes only.
-                        It can be used as a way to provide any type of information not already covered by other sections (i.e. narrative, scenarios, etc).
-                        In cases where narrative is not appropriate, description can be used as an alternative.
-                    </p>
-                </div>
-                <div>
-                    <h4>Meta</h4>
-                    <p>
-                        <!--TODO Meta-->
-                        TODO
-                    </p>
-                </div>
-                <div>
-                    <h4>Narrative</h4>
-                    <p>
-                        Narrative is equivalent of a user story.
-                        The purpose of narrative is to capture initial idea or requirement and initiate conversation that will result in one or more scenarios.
-                        It consists of 3 fields:
-                        <ul>
-                            <li><strong>In order to</strong> [ACCOMPLISH SOMETHING]</li>
-                            <li><strong>As a</strong> [USER OR ROLE THAT NEEDS THE NEW FEATURE]</li>
-                            <li><strong>I want to</strong> [DO SOMETHING]</li>
-                        </ul>
-                    </p>
-                </div>
-                <div>
-                    <h4>Given Stories</h4>
-                    <p>
-                        <!--TODO Given Stories-->
-                        TODO
-                    </p>
-                </div>
-                <div>
-                    <h4>Lifecycle</h4>
-                    <p>
-                        Lifecycle is split into two sub-sections: Before and After.
-                        Each can define a set of steps that are run before or after each scenario.
-                        Lifecycle is very useful when all scenarios in one BDD story start or end with the same set of steps.
-                    </p>
-                </div>
-            </div>
-            <div>
-                <figure class="pull-right">
-                    <img src="/app/img/tutorialStoryFormScenarios.png">
-                </figure>
-                <h3>Scenarios</h3>
-                <div>
-                    Each BDD story has at least one scenario.
-                    Each of the scenarios is separated into 3 sections: Meta, Steps and Examples.
-                </div>
-                <div>
-                    <h4>Meta</h4>
-                    <p>
-                        <!--TODO Scenario Meta-->
-                        TODO
-                    </p>
-                </div>
-                <div>
-                    <h4>Steps</h4>
-                    <p>
-                        Scenario steps are the heart and soul of BDD stories.
-                        They describe preconditions (Given), actions (When) and expected outcomes (Then).
-                    </p>
-                </div>
-                <div>
-                    <h4>Examples</h4>
-                    <p>
-                        Examples can be used to easily repeat an scenario with variations specified as parameters.
-                        <!--TODO Examples-->
-                        TODO
-                    </p>
-                </div>
-            </div>
-            <div>
-                <h3>Add, move and remove elements</h3>
-                <p>
-                    Metas, given stories, lifecycle steps, steps and scenarios can be added (<span class="glyphicon glyphicon-plus"></span>), moved (<span class="glyphicon glyphicon-move"></span>) and removed (<span class="glyphicon glyphicon-remove"></span>).
-                    Alternative method to add an step is to press the enter key while inside any step field.
-                </p>
-            </div>
-            <div>
-                <h3>Auto-complete</h3>
-                <p>
-                    All step fields (within lifecycle or scenarios) support the auto-complete feature.
-                    Start writing the word that identifies some step and the GUI will display the list of candidates.
-                    Once the desired step is found, space of enter key will add it to the corresponding field.
-                </p>
-            </div>
+            Story Form is a representation of an BDD story. It is divided into 3 parts: Name, Story and Scenarios.
         </div>
+        <section>
+            <h3>Name</h3>
+            <p>Name, together with the directory path, forms the unique identification of the BDD story.</p>
+        </section>
+        <section>
+            <figure class="pull-right">
+                <img src="/app/img/tutorialStoryFormStory.png">
+            </figure>
+            <h3>Story</h3>
+            <div>
+                Story section is divided into 5 sections. None of the sections is mandatory.
+            </div>
+            <div>
+                <h4>Description</h4>
+                <p>
+                    This free-text field is for informational purposes only.
+                    It can be used as a way to provide any type of information not already covered by other sections (i.e. narrative, scenarios, etc).
+                    In cases where narrative is not appropriate, description can be used as an alternative.
+                </p>
+            </div>
+            <div>
+                <h4>Meta</h4>
+                <p>
+                    <!--TODO Meta-->
+                    TODO
+                </p>
+            </div>
+            <div>
+                <h4>Narrative</h4>
+                <p>
+                    Narrative is equivalent of a user story.
+                    The purpose of narrative is to capture initial idea or requirement and initiate conversation that will result in one or more scenarios.
+                    It consists of 3 fields:
+                    <ul>
+                        <li><strong>In order to</strong> [ACCOMPLISH SOMETHING]</li>
+                        <li><strong>As a</strong> [USER OR ROLE THAT NEEDS THE NEW FEATURE]</li>
+                        <li><strong>I want to</strong> [DO SOMETHING]</li>
+                    </ul>
+                </p>
+            </div>
+            <div>
+                <h4>Given Stories</h4>
+                <p>
+                    <!--TODO Given Stories-->
+                    TODO
+                </p>
+            </div>
+            <div>
+                <h4>Lifecycle</h4>
+                <p>
+                    Lifecycle is split into two sub-sections: Before and After.
+                    Each can define a set of steps that are run before or after each scenario.
+                    Lifecycle is very useful when all scenarios in one BDD story start or end with the same set of steps.
+                </p>
+            </div>
+        </section>
+        <section>
+            <figure class="pull-right">
+                <img src="/app/img/tutorialStoryFormScenarios.png">
+            </figure>
+            <h3>Scenarios</h3>
+            <div>
+                Each BDD story has at least one scenario.
+                Each of the scenarios is separated into 3 sections: Meta, Steps and Examples.
+            </div>
+            <div>
+                <h4>Meta</h4>
+                <p>
+                    <!--TODO Scenario Meta-->
+                    TODO
+                </p>
+            </div>
+            <div>
+                <h4>Steps</h4>
+                <p>
+                    Scenario steps are the heart and soul of BDD stories.
+                    They describe preconditions (Given), actions (When) and expected outcomes (Then).
+                </p>
+            </div>
+            <div>
+                <h4>Examples</h4>
+                <p>
+                    Examples can be used to easily repeat an scenario with variations specified as parameters.
+                    <!--TODO Examples-->
+                    TODO
+                </p>
+            </div>
+        </section>
+        <section>
+            <h3>Add, move and remove elements</h3>
+            <p>
+                Metas, given stories, lifecycle steps, steps and scenarios can be added (<span class="glyphicon glyphicon-plus"></span>), moved (<span class="glyphicon glyphicon-move"></span>) and removed (<span class="glyphicon glyphicon-remove"></span>).
+                Alternative method to add an step is to press the enter key while inside any step field.
+            </p>
+        </section>
+        <section>
+            <h3>Auto-complete</h3>
+            <p>
+                All step fields (within lifecycle or scenarios) support the auto-complete feature.
+                Start writing the word that identifies some step and the GUI will display the list of candidates.
+                Once the desired step is found, space of enter key will add it to the corresponding field.
+            </p>
+        </section>
     </article>
 </div>
