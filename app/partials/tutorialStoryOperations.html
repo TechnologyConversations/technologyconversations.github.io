@@ -1,51 +1,53 @@
 <div class="row">
-    <div class="col-md-3" ng-include="'/app/partials/tutorialIndex.html'">
-    </div>
-    <article class="col-md-9">
-        <header class="pageHeader">
-            <h1 id="pageHeader">BDD Assistant Tutorial</h1>
-            <h2 id="pageSubheader">Story Operations</h2>
-        </header>
-        <div>
+    <aside class="col-md-3" ng-include="'/app/partials/tutorialIndex.html'">
+    </aside>
+    <main class="col-md-9">
+        <article>
+            <header class="pageHeader">
+                <h1 id="pageHeader">BDD Assistant Tutorial</h1>
+                <h2 id="pageSubheader">Story Operations</h2>
+            </header>
             <div>
-                Following operations are allowed: save, revert changes, delete and rename.
+                <div>
+                    Following operations are allowed: save, revert changes, delete and rename.
+                </div>
+                <figure class="pull-right">
+                    <img src="/app/img/tutorialStoryOperations.png">
+                </figure>
+                <div>
+                    <h3>Save</h3>
+                    <p>
+                        If the BDD story form is valid, data can be permanently saved on the server.
+                        In case of a new story, new file is created.
+                        Otherwise, the contents of the existing story are overwritten with the modified version.
+                        To save the story, click the "Save" button.
+                        If saving is not allowed (i.e. invalid story), the button is disabled.
+                    </p>
+                </div>
+                <div>
+                    <h3>Revert changes</h3>
+                    <p>
+                        Any change made to the BDD story can be reverted to the version created on the last save.
+                        To revert the BDD story, click the "Revert Changes" button.
+                        This operation cannot be undone.
+                        If there were no changes to the BDD story, the button is disabled.
+                    </p>
+                </div>
+                <div>
+                    <h3>Delete</h3>
+                    <p>
+                        Any BDD story can be deleted.
+                        This operation cannot be undone.
+                        If the BDD story was not previously saved on the server, the button is disabled.
+                    </p>
+                </div>
+                <div>
+                    <h3>Rename</h3>
+                    <p>
+                        Any BDD story can be renamed by changing the name and saving changes.
+                    </p>
+                </div>
             </div>
-            <figure class="pull-right">
-                <img src="/app/img/tutorialStoryOperations.png">
-            </figure>
-            <div>
-                <h3>Save</h3>
-                <p>
-                    If the BDD story form is valid, data can be permanently saved on the server.
-                    In case of a new story, new file is created.
-                    Otherwise, the contents of the existing story are overwritten with the modified version.
-                    To save the story, click the "Save" button.
-                    If saving is not allowed (i.e. invalid story), the button is disabled.
-                </p>
-            </div>
-            <div>
-                <h3>Revert changes</h3>
-                <p>
-                    Any change made to the BDD story can be reverted to the version created on the last save.
-                    To revert the BDD story, click the "Revert Changes" button.
-                    This operation cannot be undone.
-                    If there were no changes to the BDD story, the button is disabled.
-                </p>
-            </div>
-            <div>
-                <h3>Delete</h3>
-                <p>
-                    Any BDD story can be deleted.
-                    This operation cannot be undone.
-                    If the BDD story was not previously saved on the server, the button is disabled.
-                </p>
-            </div>
-            <div>
-                <h3>Rename</h3>
-                <p>
-                    Any BDD story can be renamed by changing the name and saving changes.
-                </p>
-            </div>
-        </div>
-    </article>
+        </article>
+    </main>
 </div>

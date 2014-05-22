@@ -1,44 +1,46 @@
 <div class="row">
-    <div class="col-md-3" ng-include="'/app/partials/tutorialIndex.html'">
-    </div>
-    <article class="col-md-9">
-        <figure class="pull-right">
-            <img src="/app/img/tutorialCompositesForm.png">
-        </figure>
-        <header class="pageHeader">
-            <h1 id="pageHeader">BDD Assistant Tutorial</h1>
-            <h2 id="pageSubheader">Composites Form</h2>
-        </header>
-        <div>
-            Composites Form is a representation of an composites class.
-            It is divided into 3 parts: Class Name, Composites and Composite Steps.
-        </div>
-        <section>
-            <h3>Class Name</h3>
-            <p>Class Name is the unique identifier of a set of composites.</p>
-        </section>
-        <section>
-            <h3>Composites</h3>
-            <div>
-                All composites are listed on the left-hand side of the screen.
-                Buttons in this list can be used to add (<span class="glyphicon glyphicon-plus"></span>) and remove (<span class="glyphicon glyphicon-remove"></span>) composites.
-                Search field can be used to filter composites.
-            </div>
-        </section>
-        <section>
+    <aside class="col-md-3" ng-include="'/app/partials/tutorialIndex.html'">
+    </aside>
+    <main class="col-md-9">
+        <article>
             <figure class="pull-right">
-                <img src="/app/img/tutorialCompositesFormCompositeSteps.png">
+                <img src="/app/img/tutorialCompositesForm.png">
             </figure>
-            <h3>Composite Steps</h3>
+            <header class="pageHeader">
+                <h1 id="pageHeader">BDD Assistant Tutorial</h1>
+                <h2 id="pageSubheader">Composites Form</h2>
+            </header>
             <div>
-                Each composite consists of one or more steps.
-                Click on the desired composite (or create a new one) to open the composite form.
-                Composite form consists of composite name and steps.
-                Steps can be added (<span class="glyphicon glyphicon-plus"></span>), moved (<span class="glyphicon glyphicon-move"></span>) and removed (<span class="glyphicon glyphicon-remove"></span>).
-                Steps support the auto-complete feature.
-                Start writing the word that identifies some step and the GUI will display the list of candidates.
-                Once the desired step is found, space of enter key will add it to the corresponding field.
+                Composites Form is a representation of an composites class.
+                It is divided into 3 parts: Class Name, Composites and Composite Steps.
             </div>
-        </section>
-    </article>
+            <section>
+                <h3>Class Name</h3>
+                <p>Class Name is the unique identifier of a set of composites.</p>
+            </section>
+            <section>
+                <h3>Composites</h3>
+                <div>
+                    All composites are listed on the left-hand side of the screen.
+                    Buttons in this list can be used to add (<span class="glyphicon glyphicon-plus"></span>) and remove (<span class="glyphicon glyphicon-remove"></span>) composites.
+                    Search field can be used to filter composites.
+                </div>
+            </section>
+            <section>
+                <figure class="pull-right">
+                    <img src="/app/img/tutorialCompositesFormCompositeSteps.png">
+                </figure>
+                <h3>Composite Steps</h3>
+                <div>
+                    Each composite consists of one or more steps.
+                    Click on the desired composite (or create a new one) to open the composite form.
+                    Composite form consists of composite name and steps.
+                    Steps can be added (<span class="glyphicon glyphicon-plus"></span>), moved (<span class="glyphicon glyphicon-move"></span>) and removed (<span class="glyphicon glyphicon-remove"></span>).
+                    Steps support the auto-complete feature.
+                    Start writing the word that identifies some step and the GUI will display the list of candidates.
+                    Once the desired step is found, space of enter key will add it to the corresponding field.
+                </div>
+            </section>
+        </article>
+    </main>
 </div>
