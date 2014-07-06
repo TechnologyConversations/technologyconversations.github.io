@@ -4,7 +4,7 @@ node_js:
 
 notifications:
   email:
-  - viktor@farcic.com
+  - jordi.falguera@gmail.com
 
 before_script:
   - export DISPLAY=:99.0
