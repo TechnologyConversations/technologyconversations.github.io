@@ -1,0 +1,1 @@
+There's something called foreman that helps with Heroku: https://devcenter.heroku.com/articles/procfile
