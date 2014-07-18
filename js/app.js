@@ -5,7 +5,7 @@ angular.module('assistantWeb', [
         'ngRoute',
 //  'myApp.filters',
 //  'myApp.services',
-//  'myApp.directives',
+        'myApp.directives',
         'assistantWeb.controllers'
     ])
     .config(['$routeProvider', function ($routeProvider) {
