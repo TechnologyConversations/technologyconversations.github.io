@@ -7,39 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BDD Assistant</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 <header>
     <nav id="navigation" class="navbar navbar-inverse" role="navigation">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a id="home" class="navbar-brand" href="#/index">TC BDD Assistant</a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a id="bdd" href="#/page/bdd">BDD</a></li>
-                <li><a id="bddAssistant" href="#/page/bddAsssistant">BDD Assistant</a></li>
-                <li><a id="tutorial" href="#/page/tutorial">Tutorial</a></li>
-                <li><a id="technologyConversations" href="http://TechnologyConversations.com">Technology Conversations</a></li>
-                <li><a id="about" href="#/page/about">About</a></li>				
-            </ul>
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a id="home" class="navbar-brand" href="#/index">TC BDD Assistant</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a id="bdd" href="#/page/bdd">BDD</a></li>
+                    <li><a id="bddAssistant" href="#/page/bddAsssistant">BDD Assistant</a></li>
+                    <li><a id="tutorial" href="#/page/tutorial">Tutorial</a></li>
+                    <li><a id="technologyConversations" href="http://TechnologyConversations.com">Technology Conversations</a></li>
+                    <li><a id="about" href="#/page/about">About</a></li>				
+                </ul>
+            </div>
         </div>
     </nav>
 </header>
 
-<div ng-view class="container"></div>
-
-<footer>
-    <div class="container">
-        <p class="text-muted">Place sticky footer content here.</p>
-    </div>
-</footer>
+<div ng-view></div>
 
 <script src="../bower_components/angular/angular.js"></script>
 <script src="../bower_components/angular-route/angular-route.js"></script>
@@ -48,6 +44,6 @@
 <script src="js/controllers.js"></script>
 <!--<script src="js/services.js"></script>-->
 <!--<script src="js/filters.js"></script>-->
-<!--<script src="js/directives.js"></script>-->
+<script src="js/directives.js"></script>
 </body>
 </html>

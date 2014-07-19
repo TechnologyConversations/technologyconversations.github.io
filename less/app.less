@@ -1,0 +1,71 @@
+/* Required for Angular UI module*/
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.container .text-muted {
+    margin: 20px 0;
+}
+
+footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.jumbotron {
+  margin-top: -30px;
+  background: @brand-secondary;
+  color: #fff;
+}
+
+.panel-primary {
+  border: 0;
+  background: @brand-primary;
+
+  >.panel-heading {
+    background: @brand-secondary;
+    border: 0;
+  }
+
+  >.panel-footer {
+    background: @third-grey;
+    border: 0;
+    font-size: .8em;
+  }
+}
+
+.navbar {
+  border-radius: 0;
+}
+.navbar-nav > li > a {
+  font-weight: 600;
+}
+
+h1, h2, h3, h4 {
+  color: #fff;
+}
+
+.content-item {
+  padding: 10px 0 30px 0;
+
+  &:nth-child(odd) {
+    background: @brand-primary;
+  }
+}
