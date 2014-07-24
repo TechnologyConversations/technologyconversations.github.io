@@ -1,70 +1,78 @@
-<div class="row">
-    <aside id="tutorialIndex" class="col-md-3" ng-include="'/app/partials/tutorialIndex.html'">
-    </aside>
-    <main class="col-md-9">
-        <article>
-            <header class="pageHeader">
-                <h1 id="pageHeader">BDD Assistant Tutorial</h1>
-                <h2 id="pageSubheader">Introduction</h2>
-            </header>
-            <div class="list-group">
-                <p>
-                    Welcome to the BDD Assistant Tutorial.
-                    Following sections will explain the main concepts in more details:
-                </p>
-                <a id="tutorialNavigation" href="#/page/tutorialNavigation" class="list-group-item">
-                    <h3 class="list-group-item-heading">Navigation</h3>
-                    <p class="list-group-item-text">
-                        The main purpose of the navigation menu is to provide quick links to major sections of the application as well as the information of the current location.
+<header class="jumbotron">
+  <div class="container text-center">
+      <h1 id="pageHeader">BDD Assistant Tutorial</h1>
+  </div>
+</header>
+<div class="container">
+    <div class="row">
+        <aside id="tutorialIndex" class="col-md-3" ng-include="'/partials/tutorialIndex.html'">
+        </aside>
+        <main class="col-md-9">
+            <article>
+                <header class="pageHeader">
+                    <h3 id="pageSubheader">Introduction</h3>
+                </header>
+
+                <div class="list-group">
+                    <p>
+                        Welcome to the BDD Assistant Tutorial.
+                        Following sections will explain the main concepts in more details.
                     </p>
-                </a>
-                <a id="tutorialStories" href="#/page/tutorialStories" class="list-group-item">
-                    <h3 class="list-group-item-heading">Browse Stories</h3>
-                    <p class="list-group-item-text">
-                        Browse Stories dialog allows users to navigate directories and stories, create new directories, create new, open or delete an existing story.
-                    </p>
-                </a>
-                <a id="tutorialStoryForm" href="#/page/tutorialStoryForm" class="list-group-item">
-                    <h3 class="list-group-item-heading">Story Form</h3>
-                    <p class="list-group-item-text">
-                        Story Form is a representation of an BDD story.
-                        It is divided into 3 parts: Name, Story and Scenarios.
-                    </p>
-                </a>
-                <a id="tutorialStoryOperations" href="#/page/tutorialStoryOperations" class="list-group-item">
-                    <h3 class="list-group-item-heading">Story Operations</h3>
-                    <p class="list-group-item-text">
-                        Following operations are allowed: save, revert changes, delete and rename.
-                    </p>
-                </a>
-                <a id="tutorialSingleStoryRunner" href="#/page/tutorialSingleStoryRunner" class="list-group-item">
-                    <h3 class="list-group-item-heading">Single Story Runner</h3>
-                    <p class="list-group-item-text">
-                        Single Story Runner is commonly used during the specification and development of some story.
-                        After scenarios are written, developers should use the BDD in the TDD fashion.
-                    </p>
-                </a>
-                <a id="tutorialCompositeClasses" href="#/page/tutorialCompositeClasses" class="list-group-item">
-                    <h3 class="list-group-item-heading">Browse Composites</h3>
-                    <p class="list-group-item-text">
-                        Composites are convenient way to define new steps composed of one or more predefined steps.
-                        Further on, composites are grouped into composite classes.
-                    </p>
-                </a>
-                <a id="tutorialCompositesForm" href="#/page/tutorialCompositesForm" class="list-group-item">
-                    <h3 class="list-group-item-heading">Composites Form</h3>
-                    <p class="list-group-item-text">
-                        Composites Form is a representation of an composites class.
-                        It is divided into 3 parts: Class Name, Composites and Composite Steps.
-                    </p>
-                </a>
-                <a id="tutorialCompositesOperations" href="#/page/tutorialCompositesOperations" class="list-group-item">
-                    <h3 class="list-group-item-heading">Composites Operations</h3>
-                    <p class="list-group-item-text">
-                        Following operations are allowed: create new composites, update existing composites, revert changes and delete composites.
-                    </p>
-                </a>
-            </div>
-        </article>
-    </main>
+                    <br>
+                    <a id="tutorialNavigation" href="#/page/tutorialNavigation" class="list-group-item">
+                        <h3 class="list-group-item-heading">Navigation</h3>
+                        <p class="list-group-item-text">
+                            The main purpose of the navigation menu is to provide quick links to major sections of the application as well as the information of the current location.
+                        </p>
+                    </a>
+                    <a id="tutorialStories" href="#/page/tutorialStories" class="list-group-item">
+                        <h3 class="list-group-item-heading">Browse Stories</h3>
+                        <p class="list-group-item-text">
+                            Browse Stories dialog allows users to navigate directories and stories, create new directories, create new, open or delete an existing story.
+                        </p>
+                    </a>
+                    <a id="tutorialStoryForm" href="#/page/tutorialStoryForm" class="list-group-item">
+                        <h3 class="list-group-item-heading">Story Form</h3>
+                        <p class="list-group-item-text">
+                            Story Form is a representation of an BDD story.
+                            It is divided into 3 parts: Name, Story and Scenarios.
+                        </p>
+                    </a>
+                    <a id="tutorialStoryOperations" href="#/page/tutorialStoryOperations" class="list-group-item">
+                        <h3 class="list-group-item-heading">Story Operations</h3>
+                        <p class="list-group-item-text">
+                            Following operations are allowed: save, revert changes, delete and rename.
+                        </p>
+                    </a>
+                    <a id="tutorialSingleStoryRunner" href="#/page/tutorialSingleStoryRunner" class="list-group-item">
+                        <h3 class="list-group-item-heading">Single Story Runner</h3>
+                        <p class="list-group-item-text">
+                            Single Story Runner is commonly used during the specification and development of some story.
+                            After scenarios are written, developers should use the BDD in the TDD fashion.
+                        </p>
+                    </a>
+                    <a id="tutorialCompositeClasses" href="#/page/tutorialCompositeClasses" class="list-group-item">
+                        <h3 class="list-group-item-heading">Browse Composites</h3>
+                        <p class="list-group-item-text">
+                            Composites are convenient way to define new steps composed of one or more predefined steps.
+                            Further on, composites are grouped into composite classes.
+                        </p>
+                    </a>
+                    <a id="tutorialCompositesForm" href="#/page/tutorialCompositesForm" class="list-group-item">
+                        <h3 class="list-group-item-heading">Composites Form</h3>
+                        <p class="list-group-item-text">
+                            Composites Form is a representation of an composites class.
+                            It is divided into 3 parts: Class Name, Composites and Composite Steps.
+                        </p>
+                    </a>
+                    <a id="tutorialCompositesOperations" href="#/page/tutorialCompositesOperations" class="list-group-item">
+                        <h3 class="list-group-item-heading">Composites Operations</h3>
+                        <p class="list-group-item-text">
+                            Following operations are allowed: create new composites, update existing composites, revert changes and delete composites.
+                        </p>
+                    </a>
+                </div>
+            </article>
+        </main>
+    </div>
 </div>
