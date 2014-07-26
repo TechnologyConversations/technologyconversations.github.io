@@ -3,8 +3,7 @@
 ### Definition
 BDD Assistant is an open source project that pretends to facilitate the creation and execution of Behavior Driven Development (BDD) stories as a way to better define the requirements.
 
-It consists of the following three Github repositories:
-  * [TechnologyConversations.github.io](https://github.com/TechnologyConversations/technologyconversations.github.io): It's the repository where this readme is hosted and the BDD Assistant product page.
+It consists of the following two Github repositories:
   * [TechnologyConversationsBdd](https://github.com/TechnologyConversations/TechnologyConversationsBdd): It is the repository that contains the editor, runner, composites, etc... used by the Assistant. See the components below for more information.
   * [TechnologyConversationsBddSteps](https://github.com/TechnologyConversations/TechnologyConversationsBddSteps): This repository contains a set of predefined web steps that cover basic web operations (click link, select element, check text, etc...)
 
@@ -18,7 +17,7 @@ BDD Assistant provides you with a web interface that allows you to use the follo
 
 ## Getting started updating the BDD Assistant page
 
-To get you started you can simply clone the [technologyconversations.github.io](https://github.com/TechnologyConversations/technologyconversations.github.io) repository and install the dependencies:
+If you want to help with the product page, you can simply clone the [technologyconversations.github.io](https://github.com/TechnologyConversations/technologyconversations.github.io) repository and install the dependencies:
 
 ### Cloning
 
