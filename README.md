@@ -15,47 +15,6 @@ BDD Assistant provides you with a web interface that allows you to use the follo
  * Set of Web Steps: The BDD Assistant comes with a predefined set of Web Steps for its first version.
  * Composites manager: This module allows the management of composites for later usage in the stories. Read more about composites [here](http://jbehave.org/reference/stable/composite-steps.html)
 
-## Getting started updating the BDD Assistant page
-
-If you want to help with the product page, you can simply clone the [technologyconversations.github.io](https://github.com/TechnologyConversations/technologyconversations.github.io) repository and install the dependencies:
-
-### Cloning
-
-Clone the technologyconversations.github.io repository using [git][git]:
-
-```
-git clone https://github.com/TechnologyConversations/technologyconversations.github.io
-cd technologyconversations.github.io
-```
-
-### Installing Dependencies:
-This website is using in production only [angularJS][angularJS] and [BootstrapCSS][BootstrapCSS].
-We're also using npm for running the server, etc and bower for dependencies.
-
-* We get the tools we depend upon via `npm`, the [node package manager][npm].
-* We get the angular code via `bower`, a [client-side code package manager][bower].
-
-We have preconfigured `npm` to automatically run `bower` so we can simply do:
-
-```
-npm install
-```
-
-Behind the scenes this will also call `bower install`. After running it, you should find that you have two new folders in your project.
-
-* `node_modules` - contains the npm packages for the tools we need
-* `bower_components` - contains the angular framework files
-
-### Running the Application
-This project is preconfigured with a simple development web server.  The simplest way to start
-this server is:
-
-```
-npm start
-```
-
-And now browse to the app at `http://localhost:8000/app/index.html`. Here you should be able to see the pages.
-
 ## Continuous Integration
 
 This project uses Continuous Integration with Travis CI and Heroku
