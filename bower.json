@@ -10,6 +10,8 @@
       "angular-route": "1.2.x",
       "angular-bootstrap": "0.11.0",
       "angular-loader": "1.2.x",
-      "angular-mocks": "~1.2.15"
+      "angular-mocks": "~1.2.15",
+      "jquery": "2.1.x",
+      "bootstrap": "2.1.x"
   }
 }
