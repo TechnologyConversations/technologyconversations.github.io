@@ -1,0 +1,34 @@
+<div ng-include="'/partials/tutorialHeader.html'"></div>
+
+<div class="container">
+    <div class="row">
+        <aside class="col-md-3" ng-include="'/partials/tutorialIndex.html'">
+        </aside>
+        <main class="col-md-9">
+            <article>
+                <header class="pageHeader">
+                    <h3 id="pageSubheader">Multiple Stories Runner</h3>
+                </header>
+                <div>
+                    <figure class="pull-right">
+                        <img src="/img/tutorialMultipleStoriesRunner.png">
+                    </figure>
+                    <div>
+                        Multiple Stories Runner can be used to run multiple stories.
+                        Every time implementation of some feature is done, multiple stories runner can be used to verify whether the whole system works as expected.
+                    </div>
+                    <div>
+                        <p>
+                            Run Stories top menu item opens a dialog that allows navigation between directories and stories selection.
+                            Stories or whole directories with stories can be selected by clicking the checkbox on the right side.
+                            After the desired stories are selected, Continue button leads to the Runner Parameters dialog described in the "Run Story parameters dialog" section of the <a href="#/page/tutorialSingleStoryRunner">Single Story runner</a> tutorial.
+                        </p>
+                        <p>
+                            Once all stories are executed, "Open the report &gt;" link will appear providing all the information related with the execution of scenarios.
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+</div>
