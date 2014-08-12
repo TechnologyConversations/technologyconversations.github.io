@@ -19,3 +19,4 @@ BDD Assistant provides you with a web interface that allows you to use the follo
  * Composites manager: This module allows the management of composites for later usage in the stories. Read more about composites [here](http://jbehave.org/reference/stable/composite-steps.html)
 
 If you think that BDD Assistant could help your project, you can find out more information about in the "About BDD Assistant" section of the navigation.
+

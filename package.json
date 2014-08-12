@@ -18,7 +18,7 @@
     "grunt": "^0.4.5"
   },
   "scripts": {
-    "postinstall": "./node_modules/bower/bin/bower install",
+    "postinstall": "bower install",
     "start": "http-server"
   }
 }
